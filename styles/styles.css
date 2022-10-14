@@ -225,3 +225,32 @@ html {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+.skipLink {
+  position: absolute;
+  left: -1000px;
+  z-index: 10;
+  background: #0D457F;
+  color: #EAFEFC;
+  font-size: 1rem;
+  padding: 10px 0;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.skipLink:focus {
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+@font-face {
+  font-family: "IM Fell English", serif;
+  src: url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?&family=Roboto:wght@400;700&display=swap");
+  font-weight: bold, normal;
+}
