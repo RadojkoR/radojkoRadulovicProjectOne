@@ -252,5 +252,117 @@ html {
 @font-face {
   font-family: "Roboto", sans-serif;
   src: url("https://fonts.googleapis.com/css2?&family=Roboto:wght@400;700&display=swap");
-  font-weight: bold, normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?&family=Roboto:wght@400;700&display=swap");
+  font-weight: normal;
+}
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "IM Fell English", serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+h1 {
+  font-size: 79px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1300px;
+  outline: 1px solid red;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.flexNav {
+  list-style: none;
+}
+
+.collapsibleMenu {
+  z-index: 9;
+}
+.collapsibleMenu .flexNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 60px;
+}
+.collapsibleMenu .flexNav li {
+  margin-right: 35px;
+}
+.collapsibleMenu .flexNav li a {
+  line-height: 29px;
+  letter-spacing: 1px;
+  color: #EAFEFC;
+}
+
+header {
+  background-image: url(../assets/home-header.jpg);
+  background-size: cover;
+  background-position: center top;
+  height: 90vh;
+}
+
+.headerContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  outline: 1px solid red;
+}
+.headerContainer .hOneContainer {
+  width: 50%;
+  outline: 1px solid red;
+  margin-top: 80px;
+}
+.headerContainer .hOneContainer h1 {
+  color: #FDD908;
+  text-transform: uppercase;
+}
+.headerContainer .imgHeaderContainer {
+  width: 72%;
+  margin: 100px -200px 0;
+  outline: 1px solid red;
+}
+.headerContainer .imgHeaderContainer img {
+  width: 100%;
+  outline: 1px solid red;
+}
+
+footer {
+  background: #FDD908;
+  margin: 0;
+}
+footer p {
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
 }

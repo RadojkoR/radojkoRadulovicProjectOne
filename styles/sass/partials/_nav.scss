@@ -1,0 +1,22 @@
+@use "./variables";
+
+.collapsibleMenu {
+    
+    z-index: 9;
+    .flexNav {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 60px;
+    
+    // overflow: hidden;
+    li {
+        margin-right: 35px;
+
+        a {
+            line-height: 29px;
+            letter-spacing: 1px;
+            color: variables.$tertiary;
+        }
+    }
+}
+}

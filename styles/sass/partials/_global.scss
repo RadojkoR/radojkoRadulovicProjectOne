@@ -1,0 +1,21 @@
+@use "./variables";
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1300px;
+    outline: 1px solid red;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.flexNav {
+    list-style: none;
+}
