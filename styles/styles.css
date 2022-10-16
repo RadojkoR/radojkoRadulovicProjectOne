@@ -349,7 +349,7 @@ header {
 }
 .headerContainer .imgHeaderContainer {
   width: 72%;
-  margin: 100px -200px 0;
+  margin: 100px -160px 0;
   outline: 1px solid red;
 }
 .headerContainer .imgHeaderContainer img {
