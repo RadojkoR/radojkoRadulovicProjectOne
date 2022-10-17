@@ -1,5 +1,7 @@
 @use "./variables";
 
+
+
 .wrapper {
     width: 80%;
     margin: 0 auto;
@@ -17,5 +19,9 @@ img {
 }
 
 .flexNav {
+    list-style: none;
+}
+
+ul {
     list-style: none;
 }

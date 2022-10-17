@@ -5,33 +5,41 @@ header {
     background-size: cover;
     background-position: center top;
     height: 90vh;
+    position: relative;
+
+    .imgHeaderContainer {
+        width: 57%;  
+        min-width: 900px;  
+        position: absolute;
+        right: 0;
+        top:250px;
+        z-index: 1;
+        img {
+            width: 100%;
+        }
+    }
 }
 
 .headerContainer {
-    display: flex;
-    // flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
     outline: 1px solid red;
+    display: flex;
+    align-items: flex-end;
 
     .hOneContainer {
-        width: 50%;
-        outline: 1px solid red;   
-        margin-top: 80px;
+        width: 100%;
+        position: absolute;
+        bottom: 50px;
+        outline: 1px solid red;
 
         h1 {
             color: variables.$secondary;
             text-transform: uppercase;
         }
-    }
-
-    .imgHeaderContainer {
-        width: 72%;
-        margin: 100px -160px 0;
-        outline: 1px solid red;
-        img {
-            width: 100%;
-            outline: 1px solid red;
+        span {
+            display: block;
         }
     }
+
+    
 }
+

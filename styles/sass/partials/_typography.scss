@@ -30,8 +30,12 @@ html {
 }
 
 body {
+    font-size: 1rem;
+    line-height: 28px;
+    letter-spacing: 1px;
     font-family: variables.$bodyFont;
     font-weight: normal;
+    background: variables.$tertiary;
 }
 
 h1, h2, h3, h4, h5, h6 {

@@ -264,8 +264,12 @@ html {
 }
 
 body {
+  font-size: 1rem;
+  line-height: 28px;
+  letter-spacing: 1px;
   font-family: "Roboto", sans-serif;
   font-weight: normal;
+  background: #EAFEFC;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -298,6 +302,10 @@ img {
   list-style: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .collapsibleMenu {
   z-index: 9;
 }
@@ -324,37 +332,84 @@ header {
   background-size: cover;
   background-position: center top;
   height: 90vh;
+  position: relative;
+}
+header .imgHeaderContainer {
+  width: 57%;
+  min-width: 900px;
+  position: absolute;
+  right: 0;
+  top: 250px;
+  z-index: 1;
+}
+header .imgHeaderContainer img {
+  width: 100%;
 }
 
 .headerContainer {
+  outline: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  outline: 1px solid red;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 .headerContainer .hOneContainer {
-  width: 50%;
+  width: 100%;
+  position: absolute;
+  bottom: 50px;
   outline: 1px solid red;
-  margin-top: 80px;
 }
 .headerContainer .hOneContainer h1 {
   color: #FDD908;
   text-transform: uppercase;
 }
-.headerContainer .imgHeaderContainer {
-  width: 72%;
-  margin: 100px -160px 0;
-  outline: 1px solid red;
+.headerContainer .hOneContainer span {
+  display: block;
 }
-.headerContainer .imgHeaderContainer img {
+
+.additionalInfoSection {
+  background-color: #EAFEFC;
+  padding-top: 250px;
+}
+.additionalInfoSection .additionalFlex {
   width: 100%;
-  outline: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.additionalInfoSection .additionalFlex .item {
+  width: calc(50% - 20px);
+  margin: 20px 10px 10px 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.additionalInfoSection .additionalFlex .item .itemIcon .iconify {
+  width: 50px;
+  height: 50px;
+  color: #0D457F;
+  background: #FDD908;
+  border-radius: 50%;
+  margin: 20px 20px 0 0;
+  padding: 10px;
+}
+.additionalInfoSection .additionalFlex .item h2 {
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 99.8px;
+  color: #0D457F;
+  text-transform: uppercase;
 }
 
 footer {
