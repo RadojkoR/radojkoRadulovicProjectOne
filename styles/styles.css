@@ -280,6 +280,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
   font-size: 79px;
+  line-height: 110px;
 }
 
 .wrapper {
@@ -335,7 +336,7 @@ header {
   position: relative;
 }
 header .imgHeaderContainer {
-  width: 57%;
+  width: 50%;
   min-width: 900px;
   position: absolute;
   right: 0;
@@ -358,7 +359,7 @@ header .imgHeaderContainer img {
 .headerContainer .hOneContainer {
   width: 100%;
   position: absolute;
-  bottom: 50px;
+  bottom: 20px;
   outline: 1px solid red;
 }
 .headerContainer .hOneContainer h1 {
