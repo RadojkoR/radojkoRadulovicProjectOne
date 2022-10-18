@@ -25,3 +25,15 @@ img {
 ul {
     list-style: none;
 }
+button {
+    background-color: variables.$secondary;
+    font-family: variables.$headingFont;
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 41.6px;
+    padding: 0 10px;
+    border: none;
+    color: variables.$primary;
+    text-transform: uppercase;
+    margin-top: 50px;
+}

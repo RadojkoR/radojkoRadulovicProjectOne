@@ -2,28 +2,91 @@
 
 .services {
     background-color: variables.$primary;
+    margin: 150px 0;
     .servicesFlex {
+        width: 100%;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
         flex-wrap: wrap;
 
-        .imgContainer {
+        .colLeft {
             width: 45%;
-            justify-content: space-around;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
             outline: 1px solid red;
+
+            .textLeft {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; 
+            margin: 150px 0 80px;        
+           }
+
+           .imgLeft {
+            margin-top: -10px;
+            
+            img {
+                margin-top: -50px;
+                width: 100%;
+                position: relative;
+                bottom: 20px;
+                right: 20px;
+                // box-shadow: 30px 30px variables.$secondary;
+            }
+        }
+        }
+
+        .colRight {
+            width: 45%;
+            display: flex;
+            flex-direction: column;
+            outline: 1px solid red;
+            
+            .textRight {
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin: 120px 0;     
+           }
+
+            .imgRight {
+                position: relative;
+                top: 80px;
+            img {
+                width: 100%;
+                position: relative;
+                bottom: 20px;
+                left: 20px;
+                // box-shadow: -15px -15px variables.$secondary;
+            }
+        }
         }
 
         .textContainer {
-            width: 45%;
-            outline: 1px solid red;
-            color: variables.$tertiary;
+             width: 80%;
+             outline: 1px solid red;
+             color: variables.$tertiary;
 
-            h3 {
-               font-size: 40px;
-               line-height: 58px; 
-               letter-spacing: 1.3px;
-            }
+             h3 {
+                font-size: 40px;
+                line-height: 58px; 
+                letter-spacing: 1.3px;
+             }
+         }
+
+        .imgContainer {
+            width: 98%;
+            justify-content: space-around;
+            outline: 1px solid red;
+            background-color: variables.$secondary;
+
+            
         }
+   
     }
 }
