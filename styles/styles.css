@@ -283,6 +283,13 @@ h1 {
   line-height: 110px;
 }
 
+h3 {
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 99.8px;
+  color: #0D457F;
+}
+
 .wrapper {
   width: 80%;
   margin: 0 auto;
@@ -574,6 +581,35 @@ header .imgHeaderContainer img {
   padding: 20px;
 }
 
+.winTrip {
+  background-color: #EAFEFC;
+}
+.winTrip .winTripFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  padding: 100px 0;
+}
+.winTrip .winTripFlex .winTripImg {
+  width: 30%;
+  background: #FDD908;
+}
+.winTrip .winTripFlex .winTripImg img {
+  width: 100%;
+  position: relative;
+  bottom: 20px;
+  left: 20px;
+}
+.winTrip .winTripFlex .winTripText {
+  width: 60%;
+  color: #0D457F;
+}
 footer {
   background: #FDD908;
   margin: 0;
