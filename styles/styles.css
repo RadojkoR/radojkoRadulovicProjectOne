@@ -320,6 +320,14 @@ button {
   margin-top: 50px;
 }
 
+.bgSection {
+  width: 100%;
+  height: 60vh;
+  background-image: url(../assets/banner.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .collapsibleMenu {
   z-index: 9;
 }
@@ -534,6 +542,36 @@ header .imgHeaderContainer img {
       justify-content: space-around;
   outline: 1px solid red;
   background-color: #FDD908;
+}
+
+.extraVacation {
+  background-color: #EAFEFC;
+  margin: 150px 0;
+}
+.extraVacation .extraVacationTxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  outline: 1px solid red;
+  color: #0D457F;
+}
+.extraVacation .extraVacationTxt h3 {
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 99.8px;
+  color: #0D457F;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
 }
 
 footer {
