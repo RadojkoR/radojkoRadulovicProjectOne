@@ -10,10 +10,17 @@
     li {
         margin-right: 35px;
 
+        
+
         a {
             line-height: 29px;
             letter-spacing: 1px;
             color: variables.$tertiary;
+            padding: 10px;
+
+            &:first-child {
+            padding-left: 0;
+        }
 
             &:hover, 
             &:focus {

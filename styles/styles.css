@@ -302,7 +302,6 @@ h3 {
   width: 80%;
   margin: 0 auto;
   max-width: 1300px;
-  outline: 1px solid red;
 }
 
 a {
@@ -362,6 +361,10 @@ button {
   line-height: 29px;
   letter-spacing: 1px;
   color: #EAFEFC;
+  padding: 10px;
+}
+.collapsibleMenu .flexNav li a:first-child {
+  padding-left: 0;
 }
 .collapsibleMenu .flexNav li a:hover, .collapsibleMenu .flexNav li a:focus {
   border-bottom: 3px solid #FDD908;
@@ -391,7 +394,6 @@ button {
   width: 40%;
   position: absolute;
   bottom: 20px;
-  outline: 1px solid red;
 }
 .mainHeader .headerContainer .hOneContainer h1 {
   color: #FDD908;
@@ -648,7 +650,7 @@ button {
 }
 
 .blog {
-  width: 98%;
+  width: 85%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -659,24 +661,67 @@ button {
 }
 .blog .ourMission {
   width: 30%;
-  justify-self: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #0D457F;
+  margin-top: 150px;
+}
+.blog .ourMission .imgMission {
+  width: 130%;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+.blog .ourMission .imgMission img {
+  width: 100%;
+  position: relative;
+  right: 20px;
+  bottom: 20px;
+}
+.blog .ourMission .ourMissionTxt {
+  padding: 40px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+.blog .ourMission .ourMissionTxt h4 {
+  font-size: 25px;
+  line-height: 58px;
+  letter-spacing: 0.8px;
+  color: #FDD908;
+}
+.blog .ourMission .ourMissionTxt p {
+  color: #EAFEFC;
+}
+.blog .ourMission .ourMissionTxt ul {
+  list-style: disc;
+  margin-left: -20px;
+}
+.blog .ourMission .ourMissionTxt ul li {
+  color: #EAFEFC;
 }
 .blog .nextDestination {
-  width: 60%;
+  width: 65%;
   border: 7px solid #FDD908;
   justify-self: flex-end;
-  margin: -200px -50px 50px;
+  margin: -200px -150px 50px;
 }
 .blog .nextDestination .nextDestinationImg {
-  width: 100%;
+  width: 98.5%;
   max-width: 1090px;
   background-color: #FDD908;
 }
 .blog .nextDestination .nextDestinationImg img {
   width: 100%;
   position: relative;
-  left: 15px;
-  bottom: 22px;
+  left: 22px;
+  bottom: 29px;
 }
 .blog .nextDestination .blogPost {
   width: 80%;

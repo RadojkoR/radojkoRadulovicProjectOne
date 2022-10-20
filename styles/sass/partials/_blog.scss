@@ -1,32 +1,76 @@
 @use "./variables";
 
 .blog {
-    width: 98%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
 
     .ourMission {
         width: 30%;
-        justify-self: center;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: variables.$primary;
+        margin-top: 150px;
+
+        .imgMission {
+            width: 130%;
+            align-self: flex-end;
+
+            img {
+                width: 100%;
+                position: relative;
+                right: 20px;
+                bottom: 20px;
+            }
+        }
+
+        .ourMissionTxt {
+            padding: 40px;
+            align-self: flex-start;
+
+            h4 {
+                font-size: 25px;
+                line-height: 58px;
+                letter-spacing: 0.8px;
+                color: variables.$fontYellow;
+            }
+            p {
+                color: variables.$fontLight;
+            }
+
+            ul {
+            list-style: disc;
+            margin-left: -20px;
+            li {
+               color: variables.$fontLight;
+            }
+
+        }
+
+        }
+
+        
     }
 
     .nextDestination {
-        width: 60%;
+        width: 65%;
         border:7px solid variables.$secondary;
+        // border-bottom:7px solid variables.$secondary;
         justify-self: flex-end;
-        margin: -200px -50px 50px;
+        margin: -200px -150px 50px;
 
         .nextDestinationImg {
-            width: 100%;
+            width: 98.5%;
             max-width: 1090px;
             background-color: variables.$secondary;
 
             img {
                 width: 100%;
                 position: relative;
-                left: 15px;
-                bottom: 22px;
+                left: 22px;
+                bottom: 29px;
             }
         }
 
