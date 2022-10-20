@@ -7,8 +7,6 @@
     display: flex;
     justify-content: flex-start;
     padding-top: 60px;
-    
-    // overflow: hidden;
     li {
         margin-right: 35px;
 
@@ -16,6 +14,16 @@
             line-height: 29px;
             letter-spacing: 1px;
             color: variables.$tertiary;
+
+            &:hover, 
+            &:focus {
+                border-bottom: 3px solid variables.$secondary;
+                transition: all 0.2s ease;
+            }
+        }
+
+        .active {
+            border-bottom: 3px solid variables.$secondary;
         }
     }
 }

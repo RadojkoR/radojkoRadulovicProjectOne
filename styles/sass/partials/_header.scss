@@ -21,12 +21,12 @@ header {
 }
 
 .headerContainer {
-    outline: 1px solid red;
+    // outline: 1px solid red;
     display: flex;
     align-items: flex-end;
 
     .hOneContainer {
-        width: 100%;
+        width: 40%;
         position: absolute;
         bottom: 20px;
         outline: 1px solid red;

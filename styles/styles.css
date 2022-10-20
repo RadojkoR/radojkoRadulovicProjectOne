@@ -261,6 +261,7 @@ html {
 }
 html {
   font-size: 125%;
+  overflow-x: hidden;
 }
 
 body {
@@ -328,7 +329,7 @@ button {
 
 .bgSection {
   width: 100%;
-  height: 60vh;
+  height: 70vh;
   background-image: url(../assets/banner.jpg);
   background-size: cover;
   background-position: center;
@@ -354,6 +355,14 @@ button {
   letter-spacing: 1px;
   color: #EAFEFC;
 }
+.collapsibleMenu .flexNav li a:hover, .collapsibleMenu .flexNav li a:focus {
+  border-bottom: 3px solid #FDD908;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.collapsibleMenu .flexNav li .active {
+  border-bottom: 3px solid #FDD908;
+}
 
 header {
   background-image: url(../assets/home-header.jpg);
@@ -375,7 +384,6 @@ header .imgHeaderContainer img {
 }
 
 .headerContainer {
-  outline: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -384,7 +392,7 @@ header .imgHeaderContainer img {
           align-items: flex-end;
 }
 .headerContainer .hOneContainer {
-  width: 100%;
+  width: 40%;
   position: absolute;
   bottom: 20px;
   outline: 1px solid red;
@@ -474,7 +482,7 @@ header .imgHeaderContainer img {
   outline: 1px solid red;
 }
 .services .servicesFlex .colLeft .textLeft {
-  width: 80%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -485,17 +493,16 @@ header .imgHeaderContainer img {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  margin: 150px 0 80px;
 }
 .services .servicesFlex .colLeft .imgLeft {
-  margin-top: -10px;
+  width: 130%;
+  max-width: 750px;
+  margin-top: -50px;
 }
 .services .servicesFlex .colLeft .imgLeft img {
-  margin-top: -50px;
   width: 100%;
-  position: relative;
-  bottom: 20px;
-  right: 20px;
+  -webkit-box-shadow: 15px 15px #FDD908;
+          box-shadow: 15px 15px #FDD908;
 }
 .services .servicesFlex .colRight {
   width: 45%;
@@ -509,7 +516,7 @@ header .imgHeaderContainer img {
   outline: 1px solid red;
 }
 .services .servicesFlex .colRight .textRight {
-  width: 80%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -520,22 +527,22 @@ header .imgHeaderContainer img {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  margin: 120px 0;
 }
 .services .servicesFlex .colRight .imgRight {
-  position: relative;
-  top: 80px;
+  width: 130%;
+  max-width: 750px;
+  margin-bottom: -50px;
 }
 .services .servicesFlex .colRight .imgRight img {
   width: 100%;
-  position: relative;
-  bottom: 20px;
-  left: 20px;
+  -webkit-box-shadow: -15px 15px #FDD908;
+          box-shadow: -15px 15px #FDD908;
 }
 .services .servicesFlex .textContainer {
   width: 80%;
   outline: 1px solid red;
   color: #EAFEFC;
+  margin: 80px 0;
 }
 .services .servicesFlex .textContainer h3 {
   font-size: 40px;
@@ -543,11 +550,10 @@ header .imgHeaderContainer img {
   letter-spacing: 1.3px;
 }
 .services .servicesFlex .imgContainer {
-  width: 98%;
+  width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   outline: 1px solid red;
-  background-color: #FDD908;
 }
 
 .extraVacation {
@@ -571,10 +577,6 @@ header .imgHeaderContainer img {
   color: #0D457F;
 }
 .extraVacation .extraVacationTxt h3 {
-  font-size: 45px;
-  font-weight: normal;
-  line-height: 99.8px;
-  color: #0D457F;
   text-transform: uppercase;
   text-align: center;
   padding: 20px;
