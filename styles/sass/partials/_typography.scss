@@ -50,6 +50,14 @@ h1 {
     line-height: 110px;
 }
 
+h2 {
+                font-size: 45px;
+                font-weight: normal;
+                line-height: 99.8px;
+                color: variables.$primary;
+                text-transform: uppercase;
+               }
+
 h3 {
     font-size: 45px;
     font-weight: normal;

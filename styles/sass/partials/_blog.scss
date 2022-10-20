@@ -1,0 +1,44 @@
+@use "./variables";
+
+.blog {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    .ourMission {
+        width: 30%;
+        justify-self: center;
+    }
+
+    .nextDestination {
+        width: 60%;
+        border:7px solid variables.$secondary;
+        justify-self: flex-end;
+        margin: -200px -50px 50px;
+
+        .nextDestinationImg {
+            width: 100%;
+            max-width: 1090px;
+            background-color: variables.$secondary;
+
+            img {
+                width: 100%;
+                position: relative;
+                left: 15px;
+                bottom: 22px;
+            }
+        }
+
+
+        .blogPost {
+            width: 80%;
+            margin: 0 auto;
+            padding: 50px 0;
+
+            p {
+                padding-bottom: 20px;
+            }
+        }
+    }
+}
