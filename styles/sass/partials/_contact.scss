@@ -1,0 +1,29 @@
+@use "./variables";
+
+.contact {
+    background-color: variables.$primary;
+
+}
+
+.contactFlex {
+        display: flex;
+        // outline: 1px solid red;
+
+        .contactInfo {
+            width: 30%;
+            padding-top: 100px 0;
+
+            .social {
+                // outline: 1px solid red;
+                .iconify {
+                    font-size: 50px;
+                    color: variables.$fontDark;
+                }
+            }
+        }
+    }
+
+    .contactForm {
+        width: 65%;
+        background-color: variables.$primary;
+    }

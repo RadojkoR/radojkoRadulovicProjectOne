@@ -14,6 +14,9 @@
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@1&family=Roboto:wght@400;700&display=swap"
         rel="stylesheet">
 
+        <!-- ICON -->
+        <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
 </head>
 
 <body>
@@ -21,7 +24,7 @@
     <a href="#mainContent" class="skipLink">Skip to main</a>
 
     <!-- HEADER SECTION -->
-    <header class="mainHeader">
+    <header class="contactHeader">
         <div class="wrapper">
 
             <!-- NAV SECTION -->
@@ -45,15 +48,9 @@
 
                 <!-- H1 Container -->
                 <div class="hOneContainer">
-                    <h1>Boat Ride <span>Adventures</span></h1>
+                    <h1>Get in touch</h1>
                 </div>
                 <!--End .hOneContainer-->
-
-                <!-- Img Header Container -->
-                <div class="imgHeaderContainer">
-                    <img src="./assets/home-box-header.png" alt="">
-                </div>
-                <!--End .imgHeaderContainer-->
 
             </div>
             <!--End .headerContainer-->
@@ -65,17 +62,74 @@
     <!-- MAIN SECTION -->
     <main id="mainContent">
 
-        <section class="wrapper">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, nulla dolore inventore ipsum cum officia
-                exercitationem pariatur alias id odio sit, temporibus vel porro laborum officiis aliquid minima iure
-                quibusdam!
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores expedita ducimus, recusandae
-                perspiciatis iusto doloremque! Sapiente, praesentium. Similique aliquid, suscipit animi illo expedita
-                debitis ipsum, sed quos facilis magni aperiam!
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, pariatur? Perferendis, ipsum aspernatur?
-                Eum rem voluptatibus repudiandae voluptate eius voluptatum, dolorem odio obcaecati optio reprehenderit
-                incidunt impedit. Odio, eaque error.
-            </p>
+        <section class="contact">
+            <div class="wrapper">
+                <div class="contactFlex">
+                    <!-- CONTACT INFO SECTION -->
+                    <section class="contactInfo">
+                        <!-- SOCIAL MEDIA ICONS -->
+                        <div class="social">
+                           <a href="www.facebook.com"><span class="iconify" data-icon="bxl:facebook"></span></a>
+
+                            <a href=""><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
+
+                            <a href=""><span class="iconify" data-icon="akar-icons:twitter-fill"></span></a>
+
+                            <a href="" ><span class="iconify" data-icon="ant-design:whats-app-outlined"></span></a>
+
+                        </div>
+                        <!--End .social-->
+
+                        <!-- EMAIL -->
+                        <div class="email">
+                            <a href="mailto:info@email.com">info@email.com</a>
+                        </div>
+                        <!-- ADDRESS -->
+                        <div class="address">
+
+                            <a href="tel:123-456-7890">123-456-7890</a>
+                            <p>123 Queen Street West, Unit 10</p>
+                            <p>Toronto, Ontario</p>
+                            <p>M5V2D5</p>
+
+                        </div>
+
+                    </section>
+                    <!-- CONTACT FORM -->
+                    <section class="contactForm">
+                        <form action="#" method="post">
+                            <!-- ROW ONE -->
+                            <div class="rowOne">
+                                <!-- NAME -->
+                                <div class="formName">
+                                    <label for="name">Name</label>
+                                    <input type="text" id="name" name="name" placeholder="name">
+                                </div>
+                                <!--End .formName-->
+
+                                <!-- EMAIL -->
+                                <div class="formEmail">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" name="email" placeholder="email" required>
+                                </div>
+                                <!--End .formEmail-->
+
+                            </div>
+                            <!--End .rowOne-->
+
+                            <label for="message">Message</label>
+                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+                            <button type="submit">Submit</button>
+
+                        </form>
+
+                    </section>
+                </div><!--End .contactFlex-->
+            
+
+            </div><!--End .wrapper-->
+            
         </section>
     </main>
 

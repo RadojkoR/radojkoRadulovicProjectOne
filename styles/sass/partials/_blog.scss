@@ -55,22 +55,22 @@
     }
 
     .nextDestination {
-        width: 65%;
-        border:7px solid variables.$secondary;
+        width: 60%;
+        outline:7px solid variables.$secondary;
         // border-bottom:7px solid variables.$secondary;
         justify-self: flex-end;
-        margin: -200px -150px 50px;
+        margin: -200px -120px 50px;
 
         .nextDestinationImg {
-            width: 98.5%;
+            width: 97.1%;
             max-width: 1090px;
             background-color: variables.$secondary;
 
             img {
                 width: 100%;
                 position: relative;
-                left: 22px;
-                bottom: 29px;
+                left: 35px;
+                bottom: 35px;
             }
         }
 

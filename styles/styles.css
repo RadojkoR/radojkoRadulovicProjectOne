@@ -429,6 +429,21 @@ button {
   text-transform: uppercase;
 }
 
+.contactHeader {
+  background-image: url(../assets/contact-header.jpg);
+  background-size: cover;
+  background-position: left;
+  height: 90vh;
+}
+.contactHeader .hOneContainer {
+  width: 90%;
+  margin-top: 150px;
+}
+.contactHeader .hOneContainer h1 {
+  color: #EAFEFC;
+  text-transform: uppercase;
+}
+
 .additionalInfoSection {
   background-color: #EAFEFC;
   padding-top: 250px;
@@ -707,21 +722,21 @@ button {
   color: #EAFEFC;
 }
 .blog .nextDestination {
-  width: 65%;
-  border: 7px solid #FDD908;
+  width: 60%;
+  outline: 7px solid #FDD908;
   justify-self: flex-end;
-  margin: -200px -150px 50px;
+  margin: -200px -120px 50px;
 }
 .blog .nextDestination .nextDestinationImg {
-  width: 98.5%;
+  width: 97.1%;
   max-width: 1090px;
   background-color: #FDD908;
 }
 .blog .nextDestination .nextDestinationImg img {
   width: 100%;
   position: relative;
-  left: 22px;
-  bottom: 29px;
+  left: 35px;
+  bottom: 35px;
 }
 .blog .nextDestination .blogPost {
   width: 80%;
@@ -730,6 +745,17 @@ button {
 }
 .blog .nextDestination .blogPost p {
   padding-bottom: 20px;
+}
+
+.contact {
+  background-color: #EAFEFC;
+}
+
+.contactFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  outline: 1px solid red;
 }
 
 footer {
