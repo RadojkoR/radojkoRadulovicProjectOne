@@ -11,6 +11,10 @@
 @use "./partials/gallery";
 @use "./partials/blog";
 @use "./partials/contact";
-@use "./partials/mediaQueries";
-
+@use "./partials/mediaQ1380px&Under";
+@use "./partials/mediaQ1200px$Under";
+@use "./partials/mediaQ1080px&Under";
+@use "./partials/mediaQ900px&Under";
+@use "./partials/mediaQ768px&Under";
+@use "./partials/mediaQ490px&under";
 @use "./partials/footer";

@@ -1,0 +1,421 @@
+@use "./variables";
+
+// HOME PAGE *******************************************
+
+// 1380px and under
+@media (max-width: 1380px) {
+
+    // ADDITIONAL SECTION
+    .additionalInfoSection {
+        .additionalFlex {
+
+            .item {
+
+                .itemIcon {
+
+                    .iconify {
+                            width: 45px;
+                            height: 45px;
+                     }
+                }
+            }
+        }
+        
+        h2 {
+            font-size: 1.9rem;
+        }
+    }
+
+    // WIN TRIP SECTION
+
+    .winTrip {
+
+        .winTripFlex {
+            align-items: center;
+        }
+    }
+
+    // eXTRA VACATION SECTION
+    .extraVacation {
+        .extraVacationTxt {
+        width: 85%;
+        }
+    }
+    
+    
+ }
+
+ // 1200px and under
+@media (max-width: 1200px) {
+
+    // ADDITIONAL SECTION
+    .additionalInfoSection {
+        .additionalFlex {
+
+            .item {
+
+                .itemIcon {
+
+                    .iconify {
+                            width: 40px;
+                            height: 40px;
+                            margin: 25px 10px 0 0;
+                     }
+                }
+            }
+        }
+        
+        h2 {
+            font-size: 1.68rem;
+        }
+    }
+
+    // SERVICES INFORMATION SECTION
+    .services {
+
+        .servicesFlex {
+
+            .textContainer {
+                margin: 60px 0;
+
+                h3 {
+                    font-size: 1.9rem;
+                    line-height: 40px
+                }
+            
+            }
+
+        }
+        
+    }
+
+    // eXTRA VACATION SECTION
+    .extraVacation {
+        .extraVacationTxt {
+        width: 90%;
+
+        h3 {
+            font-size: 1.9rem;
+        }
+        }
+    }
+
+}
+
+// 1080px and under
+@media (max-width: 1080px) {
+    .wrapper {
+        width: 90%;
+    }
+
+    // ADDITIONAL SECTION
+    .additionalInfoSection {
+        .additionalFlex {
+
+            .item {
+
+                .itemIcon {
+
+                    .iconify {
+                            width: 35px;
+                            height: 35px;
+                            margin: 5px 10px 0 0;
+                     }
+                }
+            }
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            line-height: 50px;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+    // SERVICES INFORMATION SECTION
+    .services {
+
+        .servicesFlex {
+
+            .textContainer {
+            margin: 60px 0 30px;
+
+            h3 {
+                font-size: 1.9rem;
+                line-height: 40px
+            }
+
+            
+        }
+
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        
+    }
+}
+
+// 900px and under
+@media (max-width: 900px) {
+    .wrapper {
+        width: 98%;
+    }
+
+    // ADDITIONAL SECTION
+    .additionalInfoSection {
+        .additionalFlex {
+
+            .item {
+
+                .itemIcon {
+
+                    .iconify {
+                            width: 30px;
+                            height: 30px;
+                            margin: 5px 10px 0 0;
+                            padding: 5px;
+                     }
+                }
+            }
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            line-height: 50px;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+
+}
+
+// 768px and under
+@media (max-width: 768px) {
+
+    // ADDITIONAL SECTION
+    .additionalInfoSection {
+.wrapper {
+    width: 95%;
+    margin: 0 auto;
+}
+
+        .additionalFlex {
+            flex-direction: column;
+            .item {
+                width: 100%;
+
+                .itemIcon {
+
+                    .iconify {
+                            width: 30px;
+                            height: 30px;
+                            margin: 5px 10px 0 0;
+                            padding: 5px;
+                     }
+                }
+            }
+        }
+    }
+
+     // SERVICES INFORMATION SECTION
+    .services {
+
+        .servicesFlex {
+            flex-direction: column;
+
+            .colLeft {
+                width: 100%;
+
+                .imgLeft {
+                    width: 100%;
+                    margin-top: 0;
+                    img {
+                        width: 100%;
+                        box-shadow: none;
+                    }
+                }
+
+                .textLeft {
+                    align-items: center;
+                    margin: 100px 0;
+                }
+
+            }
+
+            .colRight {
+                width: 100%;
+                flex-direction: column-reverse;
+
+                .imgContainer {
+                    width: 100%;
+                    margin-bottom: 0;
+                    img {
+                        box-shadow: none;
+                    }
+                }
+                .textRight {
+                    align-items: center;
+                    margin: 100px 0;
+                }
+            }
+
+
+
+            .textContainer {
+            margin: 60px 0 30px;
+
+            h3 {
+                font-size: 1.9rem;
+                line-height: 40px
+            }
+
+            
+        }
+
+        }
+
+        button {
+            margin-top: 10px;
+        }
+
+        
+    }
+
+    // eXTRA VACATION SECTION
+    .extraVacation {
+        .extraVacationTxt {
+        width: 98%;
+
+        h3 {
+            font-size: 1.6rem;
+            line-height: 50px;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+        }
+    }
+
+}
+
+// 490px and under
+@media (max-width: 490px) {
+
+    // ADDITIONAL SECTION
+    .additionalInfoSection {
+.wrapper {
+    width: 98%;
+    margin: 0 auto;
+}
+
+        .additionalFlex {
+            flex-direction: column;
+            .item {
+                width: 100%;
+
+                .itemIcon {
+
+                    .iconify {
+                            width: 25px;
+                            height: 25px;
+                            margin: 10px 10px 0 0;
+                            padding: 3px;
+                     }
+                }
+            }
+        }
+
+        h2 {
+            font-size: 1.2rem;
+            line-height: 50px;
+        }
+        p {
+            font-size: 0.8rem;
+        }
+    }
+
+
+      // SERVICES INFORMATION SECTION
+    .services {
+
+        .servicesFlex {
+
+            .colLeft {
+
+                .textLeft {
+                    align-items: center;
+                    margin: 100px 0;
+
+                }
+
+            }
+
+            .colRight {
+                width: 100%;
+                flex-direction: column-reverse;
+
+                .imgContainer {
+                    width: 100%;
+                    margin-bottom: 0;
+                    img {
+                        box-shadow: none;
+                    }
+                }
+                .textRight {
+                    align-items: center;
+                    margin: 100px 0;
+                     
+                }
+            }
+
+
+
+            .textContainer {
+            margin: 0px 0 30px;
+         
+            h3 {
+                font-size: 1.55rem;
+            }
+           
+
+            p {
+                font-size: 0.8rem;
+            }
+
+            
+        }
+
+        }
+
+        button {
+            font-size: 1rem;
+        }       
+    }
+
+     // eXTRA VACATION SECTION
+    .extraVacation {
+        .extraVacationTxt {
+
+        h3 {
+            font-size: 1.4rem;
+        }
+
+        p {
+            font-size: 0.8rem;
+        }
+
+        button {
+            font-size: 1rem;
+        }
+        }
+    }
+
+}
