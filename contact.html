@@ -69,13 +69,16 @@
                     <section class="contactInfo">
                         <!-- SOCIAL MEDIA ICONS -->
                         <div class="social">
-                           <a href="www.facebook.com"><span class="iconify" data-icon="bxl:facebook"></span></a>
+                           <a href="https://www.facebook.com/" target="_blank"><span class="iconify"
+                                   data-icon="bxl:facebook"></span></a>
 
-                            <a href=""><span class="iconify" data-icon="akar-icons:instagram-fill"></span></a>
+                            <a href="https://www.instagram.com/" target="_blank"><span class="iconify"
+                                    data-icon="akar-icons:instagram-fill"></span></a>
 
-                            <a href=""><span class="iconify" data-icon="akar-icons:twitter-fill"></span></a>
+                            <a href="https://twitter.com/" target="_blank"><span class="iconify"
+                                    data-icon="akar-icons:twitter-fill"></span></a>
 
-                            <a href="" ><span class="iconify" data-icon="ant-design:whats-app-outlined"></span></a>
+                            <a href="#" target="_blank"><span class="iconify" data-icon="ant-design:whats-app-outlined"></span></a>
 
                         </div>
                         <!--End .social-->
@@ -97,33 +100,34 @@
                     </section>
                     <!-- CONTACT FORM -->
                     <section class="contactForm">
-                        <form action="#" method="post">
-                            <!-- ROW ONE -->
-                            <div class="rowOne">
-                                <!-- NAME -->
-                                <div class="formName">
-                                    <label for="name">Name</label>
-                                    <input type="text" id="name" name="name" placeholder="name">
+                        <div class="wrapper">
+                            <form action="#" method="post">
+                                <!-- ROW ONE -->
+                                <div class="rowOne">
+                                    <!-- NAME -->
+                                    <div class="formName">
+                                        <label for="name"></label>
+                                        <input type="text" id="name" name="name" placeholder="Name">
+                                    </div>
+                                    <!--End .formName-->
+
+                                    <!-- EMAIL -->
+                                    <div class="formEmail">
+                                        <label for="email"></label>
+                                        <input type="email" id="email" name="email" placeholder="Email address" required>
+                                    </div>
+                                    <!--End .formEmail-->
+
                                 </div>
-                                <!--End .formName-->
+                                <!--End .rowOne-->
 
-                                <!-- EMAIL -->
-                                <div class="formEmail">
-                                    <label for="email">Email</label>
-                                    <input type="email" id="email" name="email" placeholder="email" required>
-                                </div>
-                                <!--End .formEmail-->
+                                <label for="message"></label>
+                                <textarea name="message" id="message" cols="30" rows="8" placeholder="Message"></textarea>
 
-                            </div>
-                            <!--End .rowOne-->
+                                <button type="submit">Submit</button>
 
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" cols="30" rows="10"></textarea>
-
-                            <button type="submit">Submit</button>
-
-                        </form>
-
+                            </form>
+                        </div>
                     </section>
                 </div><!--End .contactFlex-->
             

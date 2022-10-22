@@ -332,6 +332,7 @@ button {
   color: #0D457F;
   text-transform: uppercase;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .bgSection {
@@ -722,29 +723,121 @@ button {
   color: #EAFEFC;
 }
 .blog .nextDestination {
-  width: 60%;
-  outline: 7px solid #FDD908;
+  width: 70%;
   justify-self: flex-end;
   margin: -200px -120px 50px;
 }
-.blog .nextDestination .nextDestinationImg {
+.blog .nextDestination .nextDestinationFlex {
+  outline: 7px solid #FDD908;
+  margin-bottom: 100px;
+}
+.blog .nextDestination .nextDestinationFlex .nextDestinationImg {
   width: 97.1%;
   max-width: 1090px;
   background-color: #FDD908;
 }
-.blog .nextDestination .nextDestinationImg img {
+.blog .nextDestination .nextDestinationFlex .nextDestinationImg img {
   width: 100%;
   position: relative;
   left: 35px;
   bottom: 35px;
 }
-.blog .nextDestination .blogPost {
-  width: 80%;
-  margin: 0 auto;
+.blog .nextDestination .nextDestinationFlex .blogPost {
   padding: 50px 0;
 }
-.blog .nextDestination .blogPost p {
+.blog .nextDestination .nextDestinationFlex .blogPost p {
   padding-bottom: 20px;
+}
+.blog .comments .commentOne {
+  margin-bottom: 100px;
+}
+.blog .comments .commentOne h5 {
+  font-size: 30px;
+  padding: 30px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #0D457F;
+}
+.blog .comments .commentTwo {
+  margin-bottom: 30px;
+}
+.blog .comments .comentsContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.blog .comments .imgcomentsContainer {
+  width: 20%;
+}
+.blog .comments .imgcomentsContainer img {
+  width: 100%;
+}
+.blog .comments .txtcomentsContainer {
+  width: 70%;
+}
+.blog .comments .txtcomentsContainer p {
+  margin: 0;
+}
+.blog .comments .txtcomentsContainer p:first-child {
+  color: #0D457F;
+  padding-bottom: 10px;
+}
+.blog form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+}
+.blog form input, .blog form label {
+  display: block;
+}
+.blog form .rowOne {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.blog form .rowOne input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #FDD908;
+  padding: 10px 20px 20px;
+  margin: 20px 0;
+  color: #000;
+  background-color: inherit;
+}
+.blog form .rowOne .formName {
+  width: 48%;
+}
+.blog form .rowOne .formEmail {
+  width: 48%;
+}
+.blog form textarea {
+  width: 100%;
+  border: none;
+  border: 2px solid #FDD908;
+  color: #000;
+  background-color: inherit;
+  padding: 20px 20px;
+  margin: 20px 0;
+}
+.blog form button {
+  background-color: #0D457F;
+  color: #FDD908;
 }
 
 .contact {
@@ -755,7 +848,96 @@ button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  outline: 1px solid red;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contactFlex .contactInfo {
+  width: 30%;
+  margin: 100px 0;
+}
+.contactFlex .contactInfo .social {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contactFlex .contactInfo .social .iconify {
+  font-size: 1.4rem;
+  color: #0D457F;
+}
+.contactFlex .contactInfo .email {
+  padding: 20px 0;
+}
+.contactFlex .contactInfo .email a {
+  margin: 0;
+  color: #000;
+}
+.contactFlex .contactInfo .address a {
+  color: #000;
+}
+.contactFlex .contactInfo .address p {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.contactForm {
+  width: 70%;
+  background-color: #0D457F;
+  position: relative;
+  bottom: 150px;
+  left: 100px;
+  -webkit-box-shadow: 20px 20px #FDD908;
+          box-shadow: 20px 20px #FDD908;
+}
+.contactForm form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 70px 0;
+}
+.contactForm form input, .contactForm form label {
+  display: block;
+}
+.contactForm form .rowOne {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.contactForm form .rowOne input {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #FDD908;
+  padding: 10px 20px 20px;
+  margin: 20px 0;
+  color: #EAFEFC;
+  background-color: inherit;
+}
+.contactForm form .rowOne .formName {
+  width: 48%;
+}
+.contactForm form .rowOne .formEmail {
+  width: 48%;
+}
+.contactForm form textarea {
+  width: 100%;
+  border: none;
+  border: 2px solid #FDD908;
+  color: #EAFEFC;
+  background-color: inherit;
+  padding: 20px 20px;
+  margin: 20px 0;
 }
 
 footer {
