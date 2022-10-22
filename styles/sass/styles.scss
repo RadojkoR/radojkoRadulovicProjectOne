@@ -11,10 +11,10 @@
 @use "./partials/gallery";
 @use "./partials/blog";
 @use "./partials/contact";
-@use "./partials/mediaQ1380px&Under";
-@use "./partials/mediaQ1200px$Under";
-@use "./partials/mediaQ1080px&Under";
-@use "./partials/mediaQ900px&Under";
-@use "./partials/mediaQ768px&Under";
-@use "./partials/mediaQ490px&under";
+@use "./partials/media1380pxUnder";
+@use "./partials/mediaQ1200pxUnder";
+@use "./partials/mediaQ1080pxUnder";
+@use "./partials/mediaQ900pxUnder";
+@use "./partials/mediaQ768pxUnder";
+@use "./partials/mediaQ490pxunder";
 @use "./partials/footer";

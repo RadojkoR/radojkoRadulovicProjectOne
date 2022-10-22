@@ -24,6 +24,9 @@
         .winTripText {
             width: 60%;
             color: variables.$fontDark;
+            h3 {
+                text-transform: uppercase;
+            }
         }
     }
 }

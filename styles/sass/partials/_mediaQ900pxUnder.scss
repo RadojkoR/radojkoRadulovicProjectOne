@@ -1,0 +1,39 @@
+@use "./variables";
+
+// HOME PAGE *******************************************
+
+// 900px and under
+@media (max-width: 900px) {
+    .wrapper {
+        width: 98%;
+    }
+
+    // ADDITIONAL SECTION
+    .additionalInfoSection {
+        .additionalFlex {
+
+            .item {
+
+                .itemIcon {
+
+                    .iconify {
+                            width: 30px;
+                            height: 30px;
+                            margin: 5px 10px 0 0;
+                            padding: 5px;
+                     }
+                }
+            }
+        }
+        
+        h2 {
+            font-size: 1.5rem;
+            line-height: 50px;
+        }
+        p {
+            font-size: 0.9rem;
+        }
+    }
+
+
+}
