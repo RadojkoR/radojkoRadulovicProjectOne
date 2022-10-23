@@ -80,6 +80,21 @@
         }
     }
 
+    } // End .blog
+
+    // CONTACT PAGE ***************************************************************************
+
+    .contact {
+        .wrapper {
+            width:94%;
+        }
     }
 
-}
+    .contactForm {
+        left: 75px;
+        .wrapper {
+            width:90%;
+        }
+    }
+
+} // Emd Media Query

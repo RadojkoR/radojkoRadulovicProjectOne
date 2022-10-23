@@ -97,5 +97,49 @@
 
     } // End .blog
 
+    // CONTACT PAGE ***************************************************************************
+
+    .contact .wrapper {
+        width: 98%;
+        margin: 0 auto;
+    }
+
+    .contactFlex {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+
+        .contactInfo {
+            width: 50%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            .address {
+                text-align: center;
+            }
+        }
+    }
+
+    .contactForm {
+        width: 100%;
+        margin: 50px auto;
+        position: unset;
+        box-shadow: none;
+        
+        .wrapper {
+            width:98%;
+        }
+
+        button {
+            width: 50%;
+            margin: 50px auto 0;
+        }
+    } // End Contact Form and CONTACT PAGE***
+
+
+
+
 
 } //End media Query

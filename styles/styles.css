@@ -974,6 +974,9 @@ button {
   .blog .nextDestination .nextDestinationFlex .nextDestinationImg img {
     width: 110%;
   }
+  .contact .wrapper {
+    width: 85%;
+  }
 }
 @media (max-width: 1200px) {
   .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
@@ -1005,6 +1008,15 @@ button {
   }
   .blog .nextDestination .nextDestinationFlex .nextDestinationImg img {
     width: 105%;
+  }
+  .contact .wrapper {
+    width: 94%;
+  }
+  .contactForm {
+    left: 75px;
+  }
+  .contactForm .wrapper {
+    width: 90%;
   }
 }
 @media (max-width: 1080px) {
@@ -1044,6 +1056,16 @@ button {
   }
   .blog .nextDestination .nextDestinationFlex .blogPost h2 {
     font-size: 2.19rem;
+  }
+  .contactFlex .contactInfo {
+    width: 35%;
+    font-size: 0.9rem;
+  }
+  .contactForm {
+    left: 15px;
+  }
+  .contactForm .wrapper {
+    width: 98%;
   }
 }
 @media (max-width: 900px) {
@@ -1087,6 +1109,51 @@ button {
   }
   .blog .ourMission .ourMissionTxt {
     padding: 10px;
+  }
+  .contact .wrapper {
+    width: 98%;
+    margin: 0 auto;
+  }
+  .contactFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px 0;
+  }
+  .contactFlex .contactInfo {
+    width: 50%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactFlex .contactInfo .address {
+    text-align: center;
+  }
+  .contactForm {
+    width: 100%;
+    margin: 50px auto;
+    position: unset;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  .contactForm .wrapper {
+    width: 98%;
+  }
+  .contactForm button {
+    width: 50%;
+    margin: 50px auto 0;
   }
 }
 @media (max-width: 768px) {
@@ -1275,6 +1342,13 @@ button {
   }
   .blog .ourMission .ourMissionTxt h4 {
     text-align: center;
+  }
+  .contactHeader .hOneContainer h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  .contactFlex .contactInfo {
+    width: 80%;
   }
 }
 @media (max-width: 490px) {
@@ -1475,6 +1549,44 @@ button {
   }
   .blog .ourMission .ourMissionTxt h4 {
     text-align: center;
+  }
+  .contactFlex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px 0;
+  }
+  .contactFlex .contactInfo {
+    width: 90%;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contactFlex .contactInfo .addres {
+    text-align: center;
+  }
+  .contactForm .wrapper {
+    width: 98%;
+  }
+  .contactForm button {
+    width: 50%;
+    margin: 50px auto 0;
+    font-size: 0.9rem;
+  }
+  footer p {
+    font-size: 0.7rem;
   }
 }
 footer {
