@@ -57,28 +57,34 @@
     .nextDestination {
         width: 70%;
         justify-self: flex-end;
-        margin: -200px -120px 50px;
+        margin: -200px -160px 50px;
 
         .nextDestinationFlex {
-             outline:7px solid variables.$secondary;
+             border-right: 7px solid variables.$secondary;
+             border-bottom: 7px solid variables.$secondary;
+             border-top: 0;
              margin-bottom: 100px;
+             overflow-x: hidden;
         
             .nextDestinationImg {
-                width: 98%;
+                width: 93%;
                 max-width: 1115px;
                 background-color: variables.$secondary;
 
                 img {
-                    width: 100%;
+                    width: 110%;
+                    max-width: none;
                     position: relative;
-                    left: 35px;
-                    bottom: 35px;
+                    left: 20px;
+                    bottom: 20px;
+                    margin-top: 20px;
                 }
             }
 
 
             .blogPost {
                 padding: 50px 0;
+                border-left: 7px solid variables.$secondary;
 
                 p {
                     padding-bottom: 20px;

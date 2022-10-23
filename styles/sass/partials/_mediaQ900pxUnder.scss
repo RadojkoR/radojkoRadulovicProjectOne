@@ -35,5 +35,67 @@
         }
     }
 
+      // BLOG PAGE *******************************************
 
-}
+    // HEADER SECTION
+
+    // BLOG SECTION
+
+    .blog {
+        .nextDestination {
+
+        .nextDestinationFlex {
+        
+            .nextDestinationImg {
+                // width: 80%;
+
+                img {
+                    width: 110%;
+                }
+            }
+
+            .blogPost {
+                h2 {
+                    font-size: 1.9rem;
+                }
+            }
+        }  //End .nextDestinationFlex  
+        
+        .comments {
+             
+            .commentOne, .commentTwo {
+                width: 94%;
+
+            }
+        }
+        
+    } //End .nextDestination
+
+    .comments .txtcomentsContainer p {
+        font-size: 0.9rem;
+    }
+
+    // Blog Contact Form
+    form {
+        width: 93%;
+        font-size: 0.75rem;
+
+        button {
+            width: 50%;
+            font-size: 1rem;
+            align-self: center;
+        }
+    }
+
+
+    .ourMission {
+            .ourMissionTxt {
+                padding: 10px;
+            }
+            
+        }
+
+    } // End .blog
+
+
+} //End media Query

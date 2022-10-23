@@ -418,7 +418,7 @@ button {
 .blogHeader {
   background-image: url(../assets/blog-header.jpg);
   background-size: cover;
-  background-position: left;
+  background-position: center;
   height: 90vh;
 }
 .blogHeader .hOneContainer {
@@ -728,25 +728,31 @@ button {
 .blog .nextDestination {
   width: 70%;
   justify-self: flex-end;
-  margin: -200px -120px 50px;
+  margin: -200px -160px 50px;
 }
 .blog .nextDestination .nextDestinationFlex {
-  outline: 7px solid #FDD908;
+  border-right: 7px solid #FDD908;
+  border-bottom: 7px solid #FDD908;
+  border-top: 0;
   margin-bottom: 100px;
+  overflow-x: hidden;
 }
 .blog .nextDestination .nextDestinationFlex .nextDestinationImg {
-  width: 98%;
+  width: 93%;
   max-width: 1115px;
   background-color: #FDD908;
 }
 .blog .nextDestination .nextDestinationFlex .nextDestinationImg img {
-  width: 100%;
+  width: 110%;
+  max-width: none;
   position: relative;
-  left: 35px;
-  bottom: 35px;
+  left: 20px;
+  bottom: 20px;
+  margin-top: 20px;
 }
 .blog .nextDestination .nextDestinationFlex .blogPost {
   padding: 50px 0;
+  border-left: 7px solid #FDD908;
 }
 .blog .nextDestination .nextDestinationFlex .blogPost p {
   padding-bottom: 20px;
@@ -959,6 +965,15 @@ button {
   .extraVacation .extraVacationTxt {
     width: 85%;
   }
+  .blog .nextDestination {
+    margin: -200px -110px 50px;
+  }
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg {
+    width: 95%;
+  }
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg img {
+    width: 110%;
+  }
 }
 @media (max-width: 1200px) {
   .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
@@ -982,212 +997,14 @@ button {
   .extraVacation .extraVacationTxt h3 {
     font-size: 1.9rem;
   }
-}
-@media (max-width: 1080px) {
-  .wrapper {
-    width: 90%;
+  .blog .nextDestination {
+    margin: -200px -100px 50px;
   }
-  .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
-    width: 35px;
-    height: 35px;
-    margin: 5px 10px 0 0;
-  }
-  .additionalInfoSection h2 {
-    font-size: 1.5rem;
-    line-height: 50px;
-  }
-  .additionalInfoSection p {
-    font-size: 0.9rem;
-  }
-  .services .servicesFlex .textContainer {
-    margin: 60px 0 30px;
-  }
-  .services .servicesFlex .textContainer h3 {
-    font-size: 1.9rem;
-    line-height: 40px;
-  }
-  .services button {
-    margin-top: 10px;
-  }
-}
-@media (max-width: 900px) {
-  .wrapper {
-    width: 98%;
-  }
-  .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
-    width: 30px;
-    height: 30px;
-    margin: 5px 10px 0 0;
-    padding: 5px;
-  }
-  .additionalInfoSection h2 {
-    font-size: 1.5rem;
-    line-height: 50px;
-  }
-  .additionalInfoSection p {
-    font-size: 0.9rem;
-  }
-}
-@media (max-width: 768px) {
-  .additionalInfoSection .wrapper {
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg {
     width: 95%;
-    margin: 0 auto;
   }
-  .additionalInfoSection .additionalFlex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .additionalInfoSection .additionalFlex .item {
-    width: 100%;
-  }
-  .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
-    width: 30px;
-    height: 30px;
-    margin: 5px 10px 0 0;
-    padding: 5px;
-  }
-  .services .servicesFlex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .services .servicesFlex .colLeft {
-    width: 100%;
-  }
-  .services .servicesFlex .colLeft .imgLeft {
-    width: 100%;
-    margin-top: 0;
-  }
-  .services .servicesFlex .colLeft .imgLeft img {
-    width: 100%;
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .services .servicesFlex .colLeft .textLeft {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 100px 0;
-  }
-  .services .servicesFlex .colRight {
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  .services .servicesFlex .colRight .imgContainer {
-    width: 100%;
-    margin-bottom: 0;
-  }
-  .services .servicesFlex .colRight .imgContainer img {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .services .servicesFlex .colRight .textRight {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 100px 0;
-  }
-  .services .servicesFlex .textContainer {
-    margin: 60px 0 30px;
-  }
-  .services .servicesFlex .textContainer h3 {
-    font-size: 1.9rem;
-    line-height: 40px;
-  }
-  .services button {
-    margin-top: 10px;
-  }
-  .extraVacation .extraVacationTxt {
-    width: 98%;
-  }
-  .extraVacation .extraVacationTxt h3 {
-    font-size: 1.6rem;
-    line-height: 50px;
-  }
-  .extraVacation .extraVacationTxt button {
-    margin-top: 10px;
-  }
-}
-@media (max-width: 490px) {
-  .additionalInfoSection .wrapper {
-    width: 98%;
-    margin: 0 auto;
-  }
-  .additionalInfoSection .additionalFlex {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .additionalInfoSection .additionalFlex .item {
-    width: 100%;
-  }
-  .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
-    width: 25px;
-    height: 25px;
-    margin: 10px 10px 0 0;
-    padding: 3px;
-  }
-  .additionalInfoSection h2 {
-    font-size: 1.2rem;
-    line-height: 50px;
-  }
-  .additionalInfoSection p {
-    font-size: 0.8rem;
-  }
-  .services .servicesFlex .colLeft .textLeft {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 100px 0;
-  }
-  .services .servicesFlex .colRight {
-    width: 100%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  .services .servicesFlex .colRight .imgContainer {
-    width: 100%;
-    margin-bottom: 0;
-  }
-  .services .servicesFlex .colRight .imgContainer img {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .services .servicesFlex .colRight .textRight {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin: 100px 0;
-  }
-  .services .servicesFlex .textContainer {
-    margin: 0px 0 30px;
-  }
-  .services .servicesFlex .textContainer h3 {
-    font-size: 1.55rem;
-  }
-  .services .servicesFlex .textContainer p {
-    font-size: 0.8rem;
-  }
-  .services button {
-    font-size: 1rem;
-  }
-  .extraVacation .extraVacationTxt h3 {
-    font-size: 1.4rem;
-  }
-  .extraVacation .extraVacationTxt p {
-    font-size: 0.8rem;
-  }
-  .extraVacation .extraVacationTxt button {
-    font-size: 1rem;
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg img {
+    width: 105%;
   }
 }
 @media (max-width: 1080px) {
@@ -1216,6 +1033,18 @@ button {
   .services button {
     margin-top: 10px;
   }
+  .blog .ourMission {
+    width: 37%;
+  }
+  .blog .nextDestination {
+    margin: -200px -90px 50px;
+  }
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg {
+    width: 93%;
+  }
+  .blog .nextDestination .nextDestinationFlex .blogPost h2 {
+    font-size: 2.19rem;
+  }
 }
 @media (max-width: 900px) {
   .wrapper {
@@ -1233,6 +1062,31 @@ button {
   }
   .additionalInfoSection p {
     font-size: 0.9rem;
+  }
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg img {
+    width: 110%;
+  }
+  .blog .nextDestination .nextDestinationFlex .blogPost h2 {
+    font-size: 1.9rem;
+  }
+  .blog .nextDestination .comments .commentOne, .blog .nextDestination .comments .commentTwo {
+    width: 94%;
+  }
+  .blog .comments .txtcomentsContainer p {
+    font-size: 0.9rem;
+  }
+  .blog form {
+    width: 93%;
+    font-size: 0.75rem;
+  }
+  .blog form button {
+    width: 50%;
+    font-size: 1rem;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .blog .ourMission .ourMissionTxt {
+    padding: 10px;
   }
 }
 @media (max-width: 768px) {
@@ -1346,6 +1200,81 @@ button {
   .winTrip .winTripFlex .winTripText h3 {
     text-align: center;
     margin-top: 20px;
+  }
+  .blog {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .blog .nextDestination {
+    width: 100%;
+    margin: 0;
+  }
+  .blog .nextDestination .nextDestinationFlex {
+    border: 7px solid #FDD908;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg {
+    width: 100%;
+  }
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg img {
+    width: 100%;
+    position: unset;
+    margin: 0;
+  }
+  .blog .nextDestination .nextDestinationFlex .blogPost {
+    border: none;
+    padding: 10px;
+  }
+  .blog .nextDestination .nextDestinationFlex .blogPost h2 {
+    font-size: 1.7rem;
+    line-height: 50px;
+  }
+  .blog .nextDestination .comments .commentOne, .blog .nextDestination .comments .commentTwo {
+    width: 98%;
+    margin: 0 auto 50px;
+    padding: 10px;
+  }
+  .blog form {
+    width: 98%;
+    margin: 0 auto;
+    font-size: 0.75rem;
+  }
+  .blog form button {
+    width: 50%;
+    font-size: 1rem;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .blog .ourMission {
+    width: 100%;
+    margin-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blog .ourMission .imgMission {
+    width: 100%;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .blog .ourMission .imgMission img {
+    position: unset;
+  }
+  .blog .ourMission .ourMissionTxt {
+    padding: 10px;
+  }
+  .blog .ourMission .ourMissionTxt h4 {
+    text-align: center;
   }
 }
 @media (max-width: 490px) {
@@ -1469,6 +1398,83 @@ button {
   }
   .galleryFlex li {
     width: 90%;
+  }
+  .blog {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .blog .nextDestination {
+    width: 100%;
+    margin: 0;
+  }
+  .blog .nextDestination .nextDestinationFlex {
+    border: 7px solid #FDD908;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg {
+    width: 100%;
+  }
+  .blog .nextDestination .nextDestinationFlex .nextDestinationImg img {
+    width: 100%;
+    position: unset;
+    margin: 0;
+  }
+  .blog .nextDestination .nextDestinationFlex .blogPost {
+    border: none;
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+  .blog .nextDestination .nextDestinationFlex .blogPost h2 {
+    font-size: 1.7rem;
+    line-height: 50px;
+  }
+  .blog .nextDestination .comments .commentOne, .blog .nextDestination .comments .commentTwo {
+    width: 98%;
+    margin: 0 auto 50px;
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+  .blog form {
+    width: 98%;
+    margin: 0 auto;
+    font-size: 0.75rem;
+  }
+  .blog form button {
+    width: 50%;
+    font-size: 1rem;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .blog .ourMission {
+    width: 100%;
+    margin-top: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .blog .ourMission .imgMission {
+    width: 100%;
+    -ms-flex-item-align: center;
+        align-self: center;
+  }
+  .blog .ourMission .imgMission img {
+    position: unset;
+  }
+  .blog .ourMission .ourMissionTxt {
+    padding: 10px;
+  }
+  .blog .ourMission .ourMissionTxt h4 {
+    text-align: center;
   }
 }
 footer {

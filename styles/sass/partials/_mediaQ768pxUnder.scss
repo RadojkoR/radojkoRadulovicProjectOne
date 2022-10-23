@@ -132,6 +132,94 @@
                 }
             }
         }
+    } //End Win Trip
+
+       // BLOG PAGE *******************************************
+
+    // HEADER SECTION
+
+    // BLOG SECTION
+
+    .blog {
+        flex-direction: column;
+        width: 100%;
+        .nextDestination {
+            width: 100%;
+            margin: 0;
+
+        .nextDestinationFlex {
+             border: 7px solid variables.$secondary;
+             display: flex;
+             flex-direction: column-reverse;
+        
+            .nextDestinationImg {
+                width: 100%;
+
+                img {
+                    width: 100%;
+                    position: unset;
+                    margin: 0;
+                }
+            }
+
+            .blogPost {
+               border: none;
+               padding: 10px;
+                h2 {
+                    font-size: 1.7rem;
+                    line-height: 50px;
+                }
+            }
+        }  //End .nextDestinationFlex  
+        
+        .comments {
+             
+            .commentOne, .commentTwo {
+                width: 98%;
+                margin: 0 auto 50px;
+                padding: 10px;
+
+            }
+        }
+        
+    } //End .nextDestination
+
+    
+
+    // Blog Contact Form
+    form {
+        width: 98%;
+        margin: 0 auto ;
+        font-size: 0.75rem;
+
+        button {
+            width: 50%;
+            font-size: 1rem;
+            align-self: center;
+        }
     }
 
-}
+
+    .ourMission {
+        width: 100%;
+        margin-top: 0px;
+        flex-direction: column-reverse;
+            .imgMission {
+                width: 100%;
+                align-self: center;
+                img {
+                    position: unset;
+                }
+            }
+            .ourMissionTxt {
+                padding: 10px;
+                h4 {
+                    text-align: center;
+                }
+            }
+            
+        }
+
+    } // End .blog
+
+} // End Media Query
