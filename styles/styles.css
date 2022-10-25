@@ -985,9 +985,6 @@ button {
   .mainHeader .headerContainer .hOneContainer h1 {
     font-size: 3.2rem;
   }
-  .mainHeader .imgHeaderContainer {
-    min-width: 720px;
-  }
   .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
     width: 40px;
     height: 40px;
@@ -1581,7 +1578,7 @@ button {
     font-size: 0.75rem;
   }
   .blog form button {
-    width: 50%;
+    width: 65%;
     font-size: 1rem;
     -ms-flex-item-align: center;
         align-self: center;
