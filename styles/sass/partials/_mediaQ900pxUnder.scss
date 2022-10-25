@@ -2,8 +2,18 @@
 
 // HOME PAGE *******************************************
 
-// HOME 
-.mainHeader {
+
+
+
+// 900px and under
+@media (max-width: 900px) {
+    .wrapper {
+        width: 98%;
+    }
+
+    // HOME 
+
+    .mainHeader {
 
     .headerContainer {
 
@@ -28,12 +38,6 @@
         display: none;
     }
 }
-
-// 900px and under
-@media (max-width: 900px) {
-    .wrapper {
-        width: 98%;
-    }
 
     // ADDITIONAL SECTION
     .additionalInfoSection {

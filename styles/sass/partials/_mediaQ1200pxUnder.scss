@@ -2,7 +2,12 @@
 
 // HOME PAGE *******************************************
 
-// HEADER 
+
+
+// 1200px and under
+@media (max-width: 1200px) {
+
+    // HEADER 
 
 .mainHeader {
     
@@ -22,9 +27,6 @@
         min-width: 620px;  
     }
 }
-
-// 1200px and under
-@media (max-width: 1200px) {
 
     // ADDITIONAL SECTION
     .additionalInfoSection {
