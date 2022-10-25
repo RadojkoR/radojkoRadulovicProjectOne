@@ -5,8 +5,27 @@
 // 490px and under
 @media (max-width: 490px) {
 
+    // HOME 
+.mainHeader {
+    
+
+    .headerContainer {
+
+    .hOneContainer {
+
+        h1 {
+            font-size: 2.1rem;
+            line-height: 80px;
+        }
+    }
+    
+    }
+}
+
+
     // ADDITIONAL SECTION
     .additionalInfoSection {
+        padding-top: 60px;
 .wrapper {
     width: 98%;
     margin: 0 auto;
@@ -41,6 +60,7 @@
 
       // SERVICES INFORMATION SECTION
     .services {
+        margin: 100px 0;
 
         .servicesFlex {
 
@@ -98,6 +118,7 @@
 
      // EXTRA VACATION SECTION
     .extraVacation {
+        margin: 100px 0;
         .extraVacationTxt {
 
         h3 {

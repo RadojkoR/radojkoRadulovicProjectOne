@@ -405,10 +405,10 @@ button {
 }
 .mainHeader .imgHeaderContainer {
   width: 50%;
-  min-width: 900px;
+  min-width: 850px;
   position: absolute;
-  right: 0;
-  top: 250px;
+  right: -70px;
+  top: 180px;
   z-index: 1;
 }
 .mainHeader .imgHeaderContainer img {
@@ -512,7 +512,6 @@ button {
   -webkit-box-align: end;
       -ms-flex-align: end;
           align-items: flex-end;
-  outline: 1px solid red;
 }
 .services .servicesFlex .colLeft .textLeft {
   width: 100%;
@@ -546,7 +545,6 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  outline: 1px solid red;
 }
 .services .servicesFlex .colRight .textRight {
   width: 100%;
@@ -573,7 +571,6 @@ button {
 }
 .services .servicesFlex .textContainer {
   width: 80%;
-  outline: 1px solid red;
   color: #EAFEFC;
   margin: 80px 0;
 }
@@ -586,7 +583,6 @@ button {
   width: 100%;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  outline: 1px solid red;
 }
 
 .extraVacation {
@@ -606,7 +602,6 @@ button {
           align-items: center;
   width: 75%;
   margin: 0 auto;
-  outline: 1px solid red;
   color: #0D457F;
 }
 .extraVacation .extraVacationTxt h3 {
@@ -950,6 +945,10 @@ button {
 }
 
 @media (max-width: 1380px) {
+  .mainHeader .imgHeaderContainer {
+    min-width: 700px;
+    right: -90px;
+  }
   .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
     width: 45px;
     height: 45px;
@@ -978,6 +977,13 @@ button {
     width: 85%;
   }
 }
+.mainHeader .headerContainer .hOneContainer h1 {
+  font-size: 2.9rem;
+}
+.mainHeader .imgHeaderContainer {
+  min-width: 620px;
+}
+
 @media (max-width: 1200px) {
   .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
     width: 40px;
@@ -1068,6 +1074,27 @@ button {
     width: 98%;
   }
 }
+.mainHeader .headerContainer .hOneContainer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+}
+.mainHeader .headerContainer .hOneContainer h1 {
+  color: #FDD908;
+  text-transform: uppercase;
+}
+.mainHeader .headerContainer .hOneContainer span {
+  display: block;
+}
+.mainHeader .imgHeaderContainer {
+  display: none;
+}
+
 @media (max-width: 900px) {
   .wrapper {
     width: 98%;
@@ -1352,6 +1379,13 @@ button {
   }
 }
 @media (max-width: 490px) {
+  .mainHeader .headerContainer .hOneContainer h1 {
+    font-size: 2.1rem;
+    line-height: 80px;
+  }
+  .additionalInfoSection {
+    padding-top: 60px;
+  }
   .additionalInfoSection .wrapper {
     width: 98%;
     margin: 0 auto;
@@ -1377,6 +1411,9 @@ button {
   }
   .additionalInfoSection p {
     font-size: 0.8rem;
+  }
+  .services {
+    margin: 100px 0;
   }
   .services .servicesFlex .colLeft .textLeft {
     -webkit-box-align: center;
@@ -1416,6 +1453,9 @@ button {
   }
   .services button {
     font-size: 1rem;
+  }
+  .extraVacation {
+    margin: 100px 0;
   }
   .extraVacation .extraVacationTxt h3 {
     font-size: 1.4rem;

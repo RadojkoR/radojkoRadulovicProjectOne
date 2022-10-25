@@ -8,7 +8,6 @@
     position: relative;
 
     .headerContainer {
-    // outline: 1px solid red;
     display: flex;
     align-items: flex-end;
 
@@ -16,7 +15,6 @@
         width: 40%;
         position: absolute;
         bottom: 20px;
-        // outline: 1px solid red;
 
         h1 {
             color: variables.$fontYellow;
@@ -31,10 +29,10 @@
 
     .imgHeaderContainer {
         width: 50%;  
-        min-width: 900px;  
+        min-width: 850px;  
         position: absolute;
-        right: 0;
-        top: 250px;
+        right: -70px;
+        top: 180px;
         z-index: 1;
         img {
             width: 100%;
@@ -54,7 +52,6 @@
 
      .hOneContainer {
         width: 40%;
-        // outline: 1px solid red;
         margin-top: 150px;
 
         h1 {

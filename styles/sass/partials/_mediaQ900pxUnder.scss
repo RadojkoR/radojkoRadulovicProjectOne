@@ -2,6 +2,33 @@
 
 // HOME PAGE *******************************************
 
+// HOME 
+.mainHeader {
+
+    .headerContainer {
+
+    .hOneContainer {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+
+        h1 {
+            color: variables.$fontYellow;
+            text-transform: uppercase;
+        }
+        span {
+            display: block;
+            }
+    }
+    
+    }
+
+    .imgHeaderContainer {
+        display: none;
+    }
+}
+
 // 900px and under
 @media (max-width: 900px) {
     .wrapper {
