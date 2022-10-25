@@ -8,6 +8,18 @@
         width: 100%;
         display: flex;
         flex-wrap: wrap;
+        position: relative;
+
+        .imgHeaderContainer {
+        width: 70%; 
+        position: absolute;
+        right: -330px;
+        top: -750px;
+        flex: 0 1 1050px;
+        img {
+            width: 100%;
+        }
+    }
 
         .item {
             width: calc(50% - 20px);

@@ -403,17 +403,6 @@ button {
 .mainHeader .headerContainer .hOneContainer span {
   display: block;
 }
-.mainHeader .imgHeaderContainer {
-  width: 50%;
-  min-width: 850px;
-  position: absolute;
-  right: -70px;
-  top: 180px;
-  z-index: 1;
-}
-.mainHeader .imgHeaderContainer img {
-  width: 100%;
-}
 
 .blogHeader {
   background-image: url(../assets/blog-header.jpg);
@@ -456,6 +445,19 @@ button {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  position: relative;
+}
+.additionalInfoSection .additionalFlex .imgHeaderContainer {
+  width: 70%;
+  position: absolute;
+  right: -330px;
+  top: -750px;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 1050px;
+          flex: 0 1 1050px;
+}
+.additionalInfoSection .additionalFlex .imgHeaderContainer img {
+  width: 100%;
 }
 .additionalInfoSection .additionalFlex .item {
   width: calc(50% - 20px);
@@ -945,9 +947,11 @@ button {
 }
 
 @media (max-width: 1380px) {
-  .mainHeader .imgHeaderContainer {
-    min-width: 700px;
-    right: -90px;
+  .additionalInfoSection .additionalFlex .imgHeaderContainer {
+    min-width: 800px;
+  }
+  .additionalInfoSection .additionalFlex .imgHeaderContainer img {
+    width: 100%;
   }
   .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
     width: 45px;
@@ -979,10 +983,10 @@ button {
 }
 @media (max-width: 1200px) {
   .mainHeader .headerContainer .hOneContainer h1 {
-    font-size: 2.9rem;
+    font-size: 3.2rem;
   }
   .mainHeader .imgHeaderContainer {
-    min-width: 620px;
+    min-width: 720px;
   }
   .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
     width: 40px;
@@ -1027,6 +1031,16 @@ button {
 @media (max-width: 1080px) {
   .wrapper {
     width: 90%;
+  }
+  .mainHeader .headerContainer .hOneContainer h1 {
+    font-size: 2.9rem;
+  }
+  .additionalInfoSection .additionalFlex .imgHeaderContainer {
+    min-width: 750px;
+    right: -250px;
+  }
+  .additionalInfoSection .additionalFlex .imgHeaderContainer img {
+    width: 100%;
   }
   .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
     width: 35px;
@@ -1094,7 +1108,7 @@ button {
   .mainHeader .headerContainer .hOneContainer span {
     display: block;
   }
-  .mainHeader .imgHeaderContainer {
+  .additionalInfoSection .additionalFlex .imgHeaderContainer {
     display: none;
   }
   .additionalInfoSection .additionalFlex .item .itemIcon .iconify {
@@ -1377,6 +1391,12 @@ button {
   }
 }
 @media (max-width: 490px) {
+  .collapsibleMenu .flexNav {
+    padding-top: 40px;
+  }
+  .collapsibleMenu .flexNav li {
+    margin-right: 15px;
+  }
   .mainHeader .headerContainer .hOneContainer h1 {
     font-size: 2.1rem;
     line-height: 80px;

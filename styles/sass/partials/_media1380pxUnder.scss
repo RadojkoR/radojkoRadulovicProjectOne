@@ -8,25 +8,18 @@
 
     // HEADER 
 
-    .mainHeader {
-   
-
-    .headerContainer {
-    
-    
-    }
-
-    .imgHeaderContainer {  
-        min-width: 700px;  
-        right: -90px;
-        
-        
-    }
-}
 
     // ADDITIONAL SECTION
     .additionalInfoSection {
         .additionalFlex {
+            
+               .imgHeaderContainer {
+        min-width: 800px;
+        img {
+            width: 100%;
+        }
+    }
+
 
             .item {
 
